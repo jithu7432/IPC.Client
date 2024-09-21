@@ -3,7 +3,7 @@ using System.IO.Pipes;
 using System.Text;
 using System.Text.Json;
 
-namespace Test.Client;
+namespace Ipc.Client;
 
 public class NamedPipeConnection {
     private readonly ILogger<NamedPipeConnection> _logger;

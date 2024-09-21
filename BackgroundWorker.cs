@@ -1,4 +1,4 @@
-namespace Test.Client;
+namespace Ipc.Client;
 
 public class BackgroundWorker : BackgroundService {
     private readonly NamedPipeConnection _connection;
@@ -12,10 +12,10 @@ public class BackgroundWorker : BackgroundService {
     }
 }
 
-public class BackgroundWorker2 : BackgroundService {
+public class AnotherBackgroundWorker : BackgroundService {
     private readonly NamedPipeConnection _connection;
 
-    public BackgroundWorker2(NamedPipeConnection connection) {
+    public AnotherBackgroundWorker(NamedPipeConnection connection) {
         _connection = connection;
     }
 

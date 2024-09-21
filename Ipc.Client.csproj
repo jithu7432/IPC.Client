@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-Test.Client-d88d8280-606d-49aa-866a-9c21203268c1</UserSecretsId>
+    <UserSecretsId>dotnet-Ipc.Client-d88d8280-606d-49aa-866a-9c21203268c1</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
